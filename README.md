@@ -78,7 +78,7 @@ Es importante comprender el concepto de una raíz y cómo se relaciona con la gr
 
 **Opción 1: Descargar al escritorio** Descargue y descomprima el repositorio. Luego, haga doble clic en el live script para abrir la aplicación MATLAB&reg;. 
 
-**Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Velocity-and-pressure-profile-in-pipes)** Log in to your MathWorks account to access your license. If you are associated with a university, use your university email to access a license and install the app. 
+**Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Metodo-numerico-de-Biseccion)** Log in to your MathWorks account to access your license. If you are associated with a university, use your university email to access a license and install the app. 
 
 ## Products ##
 MATLAB&reg;
