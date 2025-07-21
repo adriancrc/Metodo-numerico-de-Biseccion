@@ -87,7 +87,7 @@ MATLAB&reg;
 The license for this module is available in the [license](LICENSE) file in this GitHub repository.
 
 ## Support ##
-Please contact the <a href="mailto:adquesada@itcr.ac.cr">Adrián José Quesada Martínez.</a>
+Please contact <a href="mailto:adquesada@itcr.ac.cr">Adrián José Quesada Martínez.</a>
 
 # #
 _Copyright 2024 Adrián José Quesada Martínez._
