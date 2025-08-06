@@ -10,6 +10,8 @@
 ![Author](https://img.shields.io/badge/Author-Adrián%20Quesada%20Martínez-blueviolet)
 ![Developed at ITCR](https://img.shields.io/badge/Developed%20at-ITCR-blue)
 
+📄 Versión en inglés disponible aquí: [README.en.md](README.en.md)
+
 ---
 
 ## 👨‍💻 Autor
