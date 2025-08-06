@@ -1,93 +1,91 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Metodo-numerico-de-Biseccion) or [![View Velocity and pressure profile in pipes on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://la.mathworks.com/matlabcentral/fileexchange/180635-metodo-numerico-de-biseccion)
+# Método Numérico Cerrado de Bisección
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/adriancrc/Velocity-and-pressure-profile-in-pipes/total) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadriancrc%2FVelocity-and-pressure-profile-in-pipes%2Fmain%2Freport%2Fbadge%2Ftested_with.json) ![GitHub Release](https://img.shields.io/github/v/release/adriancrc/Metodo-numerico-de-Biseccion)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Metodo-numerico-de-Biseccion)  
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://la.mathworks.com/matlabcentral/fileexchange/180635-metodo-numerico-de-biseccion)
 
+![GitHub Release](https://img.shields.io/github/v/release/adriancrc/Metodo-numerico-de-Biseccion)
+![Total Downloads](https://img.shields.io/github/downloads/adriancrc/Metodo-numerico-de-Biseccion/total)
+![Tested with MATLAB](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadriancrc%2FMetodo-numerico-de-Biseccion%2Fmain%2Freport%2Fbadge%2Ftested_with.json)
+![Made with MATLAB](https://img.shields.io/badge/Made%20with-MATLAB-blue)
+![Author](https://img.shields.io/badge/Author-Adrián%20Quesada%20Martínez-blueviolet)
+![Developed at ITCR](https://img.shields.io/badge/Developed%20at-ITCR-blue)
 
+---
 
+## 👨‍💻 Autor
+**Adrián José Quesada Martínez**  
+*Instituto Tecnológico de Costa Rica*
 
-# Método Numérico cerrado de Bisección
+---
 
-## Autor
-Adrián José Quesada Martínez
+## 📘 Descripción
 
-Instituto Tecnológico de Costa Rica
+Este repositorio contiene una implementación en MATLAB del **método numérico de bisección**, una técnica robusta y sencilla para encontrar raíces de funciones continuas. Está diseñado como un **Live Script interactivo**, ideal para propósitos educativos.
 
-## Descripción: ##
-Este repositorio contiene una implementación en Matlab del método numérico de bisección para encontrar las raíces de una función. El método de bisección es un algoritmo de búsqueda de raíces que divide repetidamente un intervalo a la mitad y selecciona el subintervalo que contiene una raíz.
+---
 
-### Resumen: Método Numérico cerrado de Bisección Live Script
+## 🧠 Resumen del algoritmo
 
-#### Descripción general
+El **método de bisección** divide un intervalo \[a, b\] en el que la función cambia de signo (f(a)·f(b) < 0), garantizando que existe al menos una raíz. En cada iteración:
 
-El método de bisección es un algoritmo numérico simple y robusto utilizado para encontrar las raíces de una función continua. En otras palabras, se usa para hallar los valores de "x" donde una función f(x) es igual a cero.
+1. Se calcula el punto medio: `c = (a + b) / 2`.
+2. Se evalúa f(c).
+3. Según el signo de f(c), se escoge el nuevo intervalo \[a, c\] o \[c, b\].
+4. El proceso se repite hasta alcanzar la tolerancia deseada.
 
-¿Cómo funciona?
+---
 
-Intervalo inicial: Se comienza con un intervalo [a, b] donde la función cambia de signo, es decir, f(a) y f(b) tienen signos opuestos. Esto asegura que haya al menos una raíz dentro del intervalo.
-Punto medio: Se calcula el punto medio del intervalo: c = (a + b) / 2.
-Evaluación: Se evalúa la función en el punto medio, f(c).
-Nuevo intervalo:
-Si f(c) es igual a cero, entonces "c" es la raíz.
-Si f(c) tiene el mismo signo que f(a), la raíz está en el intervalo [c, b].
-Si f(c) tiene el mismo signo que f(b), la raíz está en el intervalo [a, c].
-Repetición: Se repiten los pasos 2-4 con el nuevo intervalo, reduciendo gradualmente el tamaño del intervalo hasta que se alcanza la precisión deseada.
+## ✨ Características del Live Script
 
-#### Características principales
+- **Interactividad**: permite ingresar la función, el intervalo y la tolerancia.
+- **Gráficos**: visualiza la convergencia del método y la evolución del intervalo.
+- **Tablas**: presenta iteraciones con valores de a, b, c y f(c).
+- **Documentación integrada**: incluye explicaciones, ecuaciones y comentarios.
+- **Debugging**: se pueden pausar iteraciones y examinar variables.
+- **Facilidad de uso**: ideal para estudiantes y docentes.
 
-Interactividad:
-Los Live Scripts permiten combinar código, texto formateado, ecuaciones y visualizaciones en un solo documento interactivo.
-Esto facilita la exploración y comprensión del método de bisección al permitir la modificación de parámetros y la visualización inmediata de los resultados.
-Visualización integrada:
-El Live Script puede incluir gráficos que muestran el proceso de convergencia del método de bisección, lo que ayuda a visualizar cómo se reduce el intervalo y se aproxima a la raíz.
-Se pueden incluir tablas que muestren las iteraciones del método, incluyendo los valores de los extremos del intervalo, el punto medio y el valor de la función en el punto medio.
-Documentación clara:
-El Live Script permite incluir texto explicativo, ecuaciones y comentarios que describen el algoritmo del método de bisección y su implementación en Matlab.
-Esto facilita la comprensión del código y la documentación del proceso de resolución.
-Flexibilidad:
-El Live Script puede ser diseñado para permitir al usuario ingresar la función objetivo, el intervalo inicial y la tolerancia como parámetros, lo que lo hace flexible para diferentes problemas.
-Se pueden incluir controles interactivos, como controles deslizantes y menús desplegables, para modificar los parámetros del método y observar cómo cambian los resultados.
-Facilidad de uso:
-Los Live Scripts son fáciles de crear y compartir, lo que los convierte en una herramienta ideal para la enseñanza y el aprendizaje del método de bisección.
-La combinación de código y resultados en un solo documento facilita la comprensión del proceso de resolución.
-Capacidad de "Debugging"
-Es posible pausar la ejecución del código, y examinar los valores de las variables en cada iteración, lo que facilita la detección de errores.
+---
 
+## 📚 Fundamentos de métodos numéricos
 
-## Conceptos Fundamentales de Métodos Numéricos ##
+- **Aproximación numérica**: cuando no hay solución analítica exacta.
+- **Iteración y convergencia**: se mejora una solución paso a paso.
+- **Error y precisión**: control mediante tolerancia.
+- **Raíces de ecuaciones**: se busca `f(x) = 0`.
 
-Aproximación Numérica:
-Los métodos numéricos se utilizan cuando no se puede obtener una solución analítica exacta a un problema matemático. En su lugar, se generan soluciones aproximadas.
-Es crucial entender que estas soluciones tienen un grado de error, y el objetivo es minimizar ese error.
-Iteración:
-Muchos métodos numéricos, incluido el de bisección, son iterativos. Esto significa que repiten un proceso varias veces para acercarse a la solución.
-Cada repetición se llama iteración, y el resultado de una iteración se utiliza como entrada para la siguiente.
-Convergencia:
-La convergencia se refiere a si un método numérico se acerca a la solución correcta a medida que se realizan más iteraciones.
-No todos los métodos numéricos convergen, y algunos convergen más rápido que otros.
-El método de bisección, bajo ciertas condiciones, garantiza la convergencia.
-Error y Precisión:
-Es fundamental comprender los diferentes tipos de error, como el error de truncamiento y el error de redondeo.
-La precisión se refiere a qué tan cerca está la solución aproximada de la solución exacta.
-La tolerancia es un valor que define el nivel de precisión deseado.
-Raíces de Ecuaciones:
-El método de bisección se utiliza para encontrar las raíces de ecuaciones no lineales, es decir, los valores de "x" que hacen que f(x) = 0.
-Es importante comprender el concepto de una raíz y cómo se relaciona con la gráfica de una función.
+---
 
+## 🚀 Cómo usar el script interactivo
 
-## Comience a utilizar la aplicación interactiva Método Numérico cerrado de Bisección ##
+### 🔹 Opción 1: Descargar
 
-**Opción 1: Descargar al escritorio** Descargue y descomprima el repositorio. Luego, haga doble clic en el live script para abrir la aplicación MATLAB&reg;. 
+1. Descargue y descomprima el repositorio.
+2. Abra el archivo `.mlx` (Live Script) en MATLAB®.
 
-**Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Metodo-numerico-de-Biseccion)** Log in to your MathWorks account to access your license. If you are associated with a university, use your university email to access a license and install the app. 
+### 🔹 Opción 2: [Abrir en MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=adriancrc/Metodo-numerico-de-Biseccion)
 
-## Products ##
-MATLAB&reg;
+- Inicie sesión con su cuenta MathWorks.
+- Si es estudiante/docente, use su correo institucional para acceder a la licencia.
 
-## License ##
-The license for this module is available in the [license](LICENSE) file in this GitHub repository.
+---
 
-## Support ##
-Please contact <a href="mailto:adquesada@itcr.ac.cr">Adrián José Quesada Martínez.</a>
+## 💻 Producto requerido
 
-# #
-_Copyright 2024 Adrián José Quesada Martínez._
+- **MATLAB®**
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo los términos definidos en el archivo [`LICENSE`](LICENSE) incluido en este repositorio.
+
+---
+
+## 📬 Soporte
+
+¿Consultas o sugerencias?  
+📧 [adquesada@itcr.ac.cr](mailto:adquesada@itcr.ac.cr)
+
+---
+
+© 2024 Adrián José Quesada Martínez
