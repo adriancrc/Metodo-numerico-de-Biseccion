@@ -13,7 +13,7 @@
 ![Developed at ITCR](https://img.shields.io/badge/Developed%20at-ITCR-blue)
 
 
-📄 Versión en inglés disponible aquí: [README.en.md](README.en.md)🇺🇸🇪🇸
+🌐 This README is also available in English 🇺🇸: [README.en.md](README.en.md)
 
 ---
 
@@ -94,4 +94,5 @@ Este proyecto está licenciado bajo los términos definidos en el archivo [`LICE
 ---
 
 © 2024 Adrián José Quesada Martínez
+
 
