@@ -13,7 +13,7 @@
 ![Developed at ITCR](https://img.shields.io/badge/Developed%20at-ITCR-blue)
 
 
-📄 Versión en inglés disponible aquí: [README.en.md](README.en.md)
+📄 Versión en inglés disponible aquí: [README.en.md](README.en.md)🇺🇸🇪🇸
 
 ---
 
