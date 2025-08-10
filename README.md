@@ -104,17 +104,9 @@ Si este material te fue útil, apóyame dejando una calificación positiva ⭐�
 
 ---
 
-## ⭐ ¡No olvides calificar!
-
-Si este material te fue útil, apóyame dejando una calificación positiva ⭐⭐⭐⭐⭐ en la página del proyecto.  
-¡Tu retroalimentación ayuda a mejorar y seguir compartiendo recursos!
-
-[![Califica este proyecto](https://img.shields.io/badge/★★★★★-Califica%20en%20File%20Exchange-blueviolet?style=for-the-badge)](https://la.mathworks.com/matlabcentral/fileexchange/180635-metodo-numerico-de-biseccion)
-
----
-
 
 © 2024 Adrián José Quesada Martínez
+
 
 
 
