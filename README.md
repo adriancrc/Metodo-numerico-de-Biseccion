@@ -95,7 +95,16 @@ Este proyecto está licenciado bajo los términos definidos en el archivo [`LICE
 
 ---
 
+## ⭐ ¡No olvides calificar!
+
+Si este material te fue útil, apóyame dejando una calificación positiva ⭐⭐⭐⭐⭐ en la página del proyecto.  
+¡Tu retroalimentación ayuda a mejorar y seguir compartiendo recursos!
+
+![Califica con 5 estrellas](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/5_stars.svg/1024px-5_stars.svg.png)
+
+---
 © 2024 Adrián José Quesada Martínez
+
 
 
 
