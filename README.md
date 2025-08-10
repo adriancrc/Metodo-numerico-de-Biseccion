@@ -93,15 +93,19 @@ Este proyecto está licenciado bajo los términos definidos en el archivo [`LICE
 ¿Consultas o sugerencias?  
 📧 [adquesada@itcr.ac.cr](mailto:adquesada@itcr.ac.cr)
 
+---
+
 ## ⭐ ¡No olvides calificar!
 
 Si este material te fue útil, apóyame dejando una calificación positiva ⭐⭐⭐⭐⭐ en la página del proyecto.  
 ¡Tu retroalimentación ayuda a mejorar y seguir compartiendo recursos!
 
-[![5 Estrellas](https://img.shields.io/badge/★★★★★-Califica%20en%20File%20Exchange-yellow)](https://www.mathworks.com/matlabcentral/fileexchange/)
+[![Califica este proyecto](https://img.shields.io/badge/★★★★★-Califica%20en%20File%20Exchange-blueviolet?style=for-the-badge)](https://la.mathworks.com/matlabcentral/fileexchange/180635-metodo-numerico-de-biseccion)
 
 ---
+
 © 2024 Adrián José Quesada Martínez
+
 
 
 
